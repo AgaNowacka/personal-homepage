@@ -1,23 +1,20 @@
 const colorNames = {
-
     elm: "#1E7B6C",
     mercury: "#E5E5E5",
     white: "#FFFFFF",
     mineShaft: "#252525",
     slateGray: "#6E7E91",
-    blumine: "#1F5189",
-    dodgerBlue: "#2188FF",
-    shipCove: "#6D93BE",
-    anakiwa: "#8CC2FF",
-    tropicalBlue: "#CDE0F7",
+    eucalyptus: "#1F8969",
+    tradewind: "#6DBEA7",
+    algaeGreen: "#91DEC9",
+    monteCarlo: "#88CDB5",
     ironTransparent: "rgba(209, 213, 218, 0.3)",
-    white: "#FFFFFF",
     whiteLilac: "#FBFBFE",
     porcelain: "#F2F3F4",
     doveGray: "#6D6D6D",
     tundora: "#414141",
     mineShaftLighter: "#313131",
-
+    mountainMeadow: "#20AC96",
 };
 
 const common = {
@@ -33,28 +30,27 @@ const common = {
 export const themeLight = {
     ...common,
     colors: {
-        primary: color.scienceBlue,
-        textPrimary: color.mineShaft,
+        primary: colorNames.elm,
+        textPrimary: colorNames.mineShaft,
         site: {
-            background: color.whiteLilac,
-            text: color.slateGray,
+            background: colorNames.whiteLilac,
+            text: colorNames.slateGray,
         },
         buttonLink: {
-            text: color.white,
-            border: color.ironTransparent,
-            shadow: color.anakiwa,
+            text: colorNames.white,
+            border: colorNames.ironTransparent,
+            shadow: colorNames.algaeGreen,
         },
-        boxBackground: color.white,
-        headerLine: color.mercury,
+        boxBackground: colorNames.white,
+        headerLine: colorNames.mercury,
         tile: {
-            border: color.porcelain,
-            borderHover: color.tropicalBlue,
-            header: color.scienceBlue,
+            border: colorNames.porcelain,
+            borderHover: colorNames.monteCarlo,
+            header: colorNames.elm,
         },
         themeSwitch: {
-            background: color.mercury,
-            border: color.scienceBlue,
-            icon: color.white,
+            background: colorNames.mercury,
+            icon: colorNames.white,
         },
     },
 };
@@ -62,27 +58,27 @@ export const themeLight = {
 export const themeDark = {
     ...common,
     colors: {
-        primary: color.dodgerBlue,
-        textPrimary: color.white,
+        primary: colorNames.mountainMeadow,
+        textPrimary: colorNames.white,
         site: {
-            background: color.mineShaft,
-            text: color.white,
+            background: colorNames.mineShaft,
+            text: colorNames.white,
         },
         buttonLink: {
-            text: color.white,
-            border: color.ironTransparent,
-            shadow: color.shipCove,
+            text: colorNames.white,
+            border: colorNames.ironTransparent,
+            shadow: colorNames.tradewind,
         },
-        boxBackground: color.mineShaftLighter,
-        headerLine: color.tundora,
+        boxBackground: colorNames.mineShaftLighter,
+        headerLine: colorNames.tundora,
         tile: {
-            border: color.tundora,
-            borderHover: color.blumine,
-            header: color.white,
+            border: colorNames.tundora,
+            borderHover: colorNames.eucalyptus,
+            header: colorNames.white,
         },
         themeSwitch: {
-            background: color.doveGray,
-            icon: color.mineShaft,
+            background: colorNames.doveGray,
+            icon: colorNames.mineShaft,
         },
     },
 };
