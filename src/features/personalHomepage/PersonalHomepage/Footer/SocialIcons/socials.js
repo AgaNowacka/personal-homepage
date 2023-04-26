@@ -15,7 +15,7 @@ export const socials = [
         Icon: styleIcon(LinkedInIcon),
     },
     {
-        name: "Faceobook",
+        name: "Facebook",
         url: "https://www.facebook.com/agnieszka.w.nowacka/",
         Icon: styleIcon(FacebookIcon),
     },
