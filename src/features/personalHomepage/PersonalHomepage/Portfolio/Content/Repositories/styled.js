@@ -79,7 +79,8 @@ export const LinksValue = styled.dd`
 
 export const Link = styled.a`
     color: ${({ theme }) => theme.colors.primary};
-    text-decoration: none;
+    text-decoration: underline; 
+    font-weight: 700; 
     padding-bottom: 1px;
 
     &:hover {
