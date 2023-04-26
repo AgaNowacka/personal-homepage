@@ -1,20 +1,20 @@
 const colorNames = {
-    elm: "#1E7B6C",
+    salem: "#0B7A50",
     mercury: "#E5E5E5",
     white: "#FFFFFF",
     mineShaft: "#252525",
     slateGray: "#6E7E91",
-    eucalyptus: "#1F8969",
-    tradewind: "#6DBEA7",
-    algaeGreen: "#91DEC9",
-    monteCarlo: "#88CDB5",
+    mountainMeadow: "#12D98F",
+    chinook: "#A1E2B8",
     ironTransparent: "rgba(209, 213, 218, 0.3)",
     whiteLilac: "#FBFBFE",
     porcelain: "#F2F3F4",
     doveGray: "#6D6D6D",
     tundora: "#414141",
     mineShaftLighter: "#313131",
-    mountainMeadow: "#20AC96",
+    cornflowerBlue: "#5990E4",
+    halfBaked: "#88B6CD",
+    bostonBlue: "#429FB3",
 };
 
 const common = {
@@ -30,7 +30,7 @@ const common = {
 export const themeLight = {
     ...common,
     colors: {
-        primary: colorNames.elm,
+        primary: colorNames.salem,
         textPrimary: colorNames.mineShaft,
         site: {
             background: colorNames.whiteLilac,
@@ -39,14 +39,14 @@ export const themeLight = {
         buttonLink: {
             text: colorNames.white,
             border: colorNames.ironTransparent,
-            shadow: colorNames.algaeGreen,
+            shadow: colorNames.mountainMeadow,
         },
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
         tile: {
             border: colorNames.porcelain,
-            borderHover: colorNames.monteCarlo,
-            header: colorNames.elm,
+            borderHover: colorNames.chinook,
+            header: colorNames.niagara,
         },
         themeSwitch: {
             background: colorNames.mercury,
@@ -58,7 +58,7 @@ export const themeLight = {
 export const themeDark = {
     ...common,
     colors: {
-        primary: colorNames.mountainMeadow,
+        primary: colorNames.cornflowerBlue,
         textPrimary: colorNames.white,
         site: {
             background: colorNames.mineShaft,
@@ -67,13 +67,13 @@ export const themeDark = {
         buttonLink: {
             text: colorNames.white,
             border: colorNames.ironTransparent,
-            shadow: colorNames.tradewind,
+            shadow: colorNames.halfBaked,
         },
         boxBackground: colorNames.mineShaftLighter,
         headerLine: colorNames.tundora,
         tile: {
             border: colorNames.tundora,
-            borderHover: colorNames.eucalyptus,
+            borderHover: colorNames.bostonBlue,
             header: colorNames.white,
         },
         themeSwitch: {
