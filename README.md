@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Personal homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descritpion 
+Website about me, my projects, my skills. 
+What I want to learn in the future. 
+And You can contact me.
+
+## Demo 
+
+
+## Technologies
+- React-Dom, React-Redux, Redux-Toolkit, Redux-Saga,
+- Hooks: useSelector, useDispatch,
+- Responsive Web Design,
+- Styled Components (ThemeProvider),
+- Axios.
 
 ## Available Scripts
 
