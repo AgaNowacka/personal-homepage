@@ -1,4 +1,4 @@
-import agaNowackaProfile from "./aga.png";
+import agaNowackaProfile from "./aga.jpg";
 import { Wrapper, Avatar, Im, Name, Summary, StyledButtonLink, ButtonIcon } from "./styled";
 import { email } from "../email";
 
