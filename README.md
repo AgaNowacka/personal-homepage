@@ -1,11 +1,12 @@
 # Personal homepage
 
 ## Descritpion 
-Website about me, my projects, my skills. 
-What I want to learn in the future. 
-And You can contact me.
+This is website about me. You will find here list of my skills and what I want to learn next.
+You can check my projects and contact me.
 
 ## Demo 
+
+https://aganowacka.github.io/personal-homepage/
 
 
 ## Technologies
